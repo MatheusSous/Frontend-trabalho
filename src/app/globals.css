@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-title {
+    font-size: 2.1rem;
+    color: #44749d;
+    margin-bottom: 1rem;
+  }
+  .bold {
+    font-weight: bold;
+    color: #44749d;
+  }
+  .form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  .button {
+    background-color: #44749d;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5;
+    border-radius: 5px;
+    border: 2px solid #44749d;
+    padding: 7px 12px;
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+  .button:hover{
+    background-color: transparent;
+    color: #44749d;
+  }
+  .conclude {
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5;
+    border-radius: 5px;
+    background-color: #a6aa56;
+    color: #fff;
+    border: 2px solid #a6aa56;
+    padding: 7px 12px;
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+  .conclude:hover {
+    background-color: transparent;
+    color: #a6aa56;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    transition: transform 100ms ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+}
